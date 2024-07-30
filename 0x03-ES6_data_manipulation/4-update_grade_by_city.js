@@ -7,5 +7,5 @@ export default function updateStudentGradeByCity(students, city, newGrades) {
         ...student,
         grade: gradeObj ? gradeObj.grade : 'N/A'
       };
-  });
+    });
 }
