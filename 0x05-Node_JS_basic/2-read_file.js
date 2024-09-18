@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let data = null
+let data = null;
 function countStudents(path) {
   try {
     data = fs.readFileSyn(path, 'utf-8');
